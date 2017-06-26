@@ -1,6 +1,11 @@
 { "class": "go.GraphLinksModel",
   "nodeDataArray": [ 
 {"key":"Alpha", "color":"lightblue"},
+{"key":"Gamma", "color":"lightgreen"},
 {"key":"Delta", "color":"pink"}
  ],
-  "linkDataArray": [ {"from":"Delta", "to":"Alpha"} ]}
+  "linkDataArray": [ 
+{"from":"Alpha", "to":"Gamma"},
+{"from":"Gamma", "to":"Delta"},
+{"from":"Delta", "to":"Alpha"}
+ ]}
