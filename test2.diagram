@@ -1,6 +1,0 @@
-{ "class": "go.GraphLinksModel",
-  "nodeDataArray": [ 
-{"key":"Alpha", "color":"lightblue"},
-{"key":"Delta", "color":"pink"}
- ],
-  "linkDataArray": [ {"from":"Delta", "to":"Alpha"} ]}
